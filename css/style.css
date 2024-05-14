@@ -1,0 +1,55 @@
+/*Cabeçalho*/
+header img {
+    height: 70px;
+    width: 70px;
+}
+
+/*Main*/
+main {
+    min-height: 500px;
+}
+
+/*Banner*/
+#section-banners img {
+    height: 450px;
+}
+
+/*Produtos a venda*/
+#section-vendidos {
+    text-align: center;
+}
+
+#section-vendidos h2 {
+    font-weight: bold;
+    padding: 20px;
+}
+
+#section-vendidos img {
+    height: 300px;
+    border-radius: 10px;
+}
+
+#section-vendidos .card {
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#section-vendidos .price {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*Rodapé*/
+
+footer {
+    position: relative;
+    bottom: 0;
+}
+
+footer p {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
